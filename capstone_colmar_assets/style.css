@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+html {
+    font-family: 'Lato', sans-serif;
+    color: #4a4a4a;
+}
+
+a {
+    text-decoration: none;
+    color: #4d92e2;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+footer {
+    height: 200px;
+    border-top: 1px solid #9b9b9b;
+    padding: 16px 24px;
+    background-color: #f3f5f5;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 32px;
+    color: #4a4a4a;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 24px;
+    color: #4a4a4a;
+    margin-bottom: 32px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #4a4a4a;
+    margin-bottom: 32px;
+    font-size: 1.2rem;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: right;
+}
+.icons{
+
+    display: none;
+}
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 0px 16px;
+    margin-top: 20px;
+    color: #4a4a4a;
+}
+
+header {
+    height: 64px;
+    padding: 12px 6px 0px 6px;
+}
+
+video {
+    height: 400px;
+    margin-bottom: 24px;
+}
+
+.banner {
+    padding: 32px 24px;
+    background-color: #d8d8d8;
+}
+
+.banner-info {
+    width: 40%;
+    float: right;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.button {
+    background-color: #4a4a4a;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    margin-top: 32px;
+    font-weight: 700;
+}
+
+.highlight-post {
+    background-color: #f3f5f5;
+    padding: 32px 24px;
+    width: 60%;
+}
+
+.highlight-post h2 {
+    margin: 32pt 0 24pt 0;
+}
+
+.logo-word {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #4a4a4a;
+    letter-spacing: 1px;
+    position: relative;
+    top: -20px;
+}
+
+.logo-word2 {
+    font-weight: 400;
+    color: #9b9b9b;
+}
+
+.flex {
+    display: flex;
+}
+
+.post {
+    padding: 16px;
+}
+
+.post-list {
+    width: 40%;
+    border-left: #9b9b9b 1px solid;
+}
+
+.post img {
+    height: auto;
+    width: 35%;
+}
+
+.special {
+    background-color: #d8d8d8;
+}
+
+.post h3,
+.post p {
+    margin-bottom: 8px;
+}
+
+.deets {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 16px;
+    width: 65%;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.start-learning {
+    padding: 32px 72px;
+    background-color: #eaebec;
+    text-align: center;
+}
+
+.exhibit {
+    background-color: #f3f5f5;
+    padding-top: 32px;
+}
+
+.exhibit h1 {
+    text-align: center;
+}
+
+.exhibit .highlight-post {
+    background-color: #f3f5f5;
+    padding-top: 0;
+    width: 60%;
+}
+
+.exhibit .post-list {
+    border-left: 0;
+}
+
+footer span {
+    text-align: right;
+    display: inline-block;
+    float: right;
+}
+
+footer span a {
+    padding-left: 5px;
+    color: inherit;
+}
+
+.learning-grid {
+    margin-bottom: 32px;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 320px;
+}
+
+.learning-box {
+    width: 30%;
+    height: 300px;
+}
+
+.data {
+    text-align: left;
+    padding: 16px 16px 24px 16px;
+    ;
+    background-color: white;
+}
+
+.data p {
+    margin-top: 8px;
+}
+
+
+/* logo-----*/
+
+header img {
+    height: 64px;
+}
+
+
+/* IMAGES-----------------------------------------------------*/
+
+.img-container {
+    background-position: center;
+    background-size: contain;
+    width: 35%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.highlight-post img,
+banner img {
+    height: auto;
+    width: 100%;
+}
+
+.hc-guest-lecture {
+    background-image: url('images/information-guest-lecture.jpg');
+}
+
+.hc-info-orientation {
+    background-image: url('images/information-orientation.jpg');
+}
+
+.hc-campus-info {
+    background-image: url('images/information-campus.jpg');
+}
+
+.img-fisma {
+    background-image: url('images/thesis-fisma.jpg');
+    height: auto;
+}
+
+.img-new-york {
+    background-image: url('images/thesis-now-and-then.jpg');
+    height: auto;
+    background-size: cover;
+}
+
+.img-software {
+    background-image: url('images/course-software.jpg');
+    height: auto;
+    width: 100%;
+}
+
+.img-art {
+    background-image: url('images/course-computer-art.jpg');
+    height: auto;
+    width: 100%;
+}
+
+.img-design {
+    background-image: url('images/course-design.jpg');
+    height: auto;
+    width: 100%;
+}
+
+.img-data {
+    background-image: url('images/course-data.jpg');
+    height: auto;
+    width: 100%;
+}
+
+.img-business {
+    background-image: url('images/course-business.jpg');
+    height: auto;
+    width: 100%;
+}
+
+.img-marketing {
+    background-image: url('images/course-marketing.jpg');
+    height: auto;
+    width: 100%;
+}
+
+.grid-img {
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* responsive design-----------------------------------------------------*/
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .logo-word,
+    .hide,
+    header ul {
+        display: none;
+    }
+    .banner {
+        flex-direction: column;
+        padding: 0;
+    }
+    .banner img {
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .banner-info {
+        padding: 32px 16px;
+        width: auto;
+    }
+    .button {
+        width: auto;
+        background-color: #9b9b9b;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .post-list {
+        width: auto;
+    }
+    .exhibit .highlight-post {
+        width: auto
+    }
+    .learning-grid {
+        flex-direction: column;
+    }
+    .learning-box {
+        width: auto;
+        height: 300px;
+    }
+    .start-learning {
+        background-color: #f5f4f5;
+        padding: 32px 16px;
+    }
+    .post,
+    special {
+        background-color: #f5f4f5;
+    }
+    .img-container {
+        height: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .hc-guest-lecture {
+        background-image: url('images/information-guest-lecture-mobile.jpg');
+    }
+    .hc-info-orientation {
+        background-image: url('images/information-orientation-mobile.jpg');
+    }
+    .hc-campus-info {
+        background-image: url('images/information-campus-mobile.jpg');
+    }
+    .img-container {
+        width: 100%;
+        height: 200px;
+    }
+    .deets {
+        width: 100%;
+    }
+
+.data{
+
+    background-color: #d8d8d8;
+    
+}
+.icons{
+    
+        display: flex;
+        height: 64px;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+header{
+height: 64px;
+flex-direction: row;
+justify-content: center;
+justify-content: space-between;
+
+
+}
+
+header img {
+    height: 34px;
+}
+
+}
